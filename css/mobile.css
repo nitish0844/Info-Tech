@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #what .items {
   display: block;
   padding: 1rem;
@@ -74,4 +78,17 @@
   .lead {
     font-size: 1rem;
   }
+}
+
+.header {
+  padding-top: 200px;
+}
+
+.para {
+  display: none;
+}
+
+.button {
+  position: relative;
+  bottom: 200px;
 }
